@@ -1,0 +1,79 @@
+:root {
+  --clr-red: rgba(229, 42, 24, 1);
+  --clr-black: rgba(30, 30, 30, 1);
+  --clr-darkblue: rgba(0, 65, 92, 1);
+  --clr-lightblue: rgba(0, 176, 171, 1);
+  --clr-bluewhite: rgba(209, 223, 223, 1);
+  --clr-offwhite: rgba(236, 235, 236, 1);
+  --input-placeholder: rgba(30, 30, 30, 0.6);
+  --font: "Apercu-pro", sans-serif;
+}
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: var(--font);
+  color:var(--clr-black);
+}
+h1 {
+  font-family: var(--font);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+h2 {
+  font-family: var(--font);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+h3 {
+  font-family: Apercu Mono Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+li {
+  font-family: Apercu Pro;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 200%;
+  list-style-type:circle;
+}
+.primary, .secondary {
+  padding: 8px 24px;
+  color: #FFF;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: Apercu Pro;
+  font-size: 26px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+.primary {
+  border:none;
+  letter-spacing: 1.3px;
+  background: #00B0AB;
+  transition: transform 200ms; 
+}
+.primary:hover {
+  transform: scale(1.05);
+  filter:saturate(1.3)
+}
+.secondary {
+  border:none;
+  font-size: 26px;
+  border: 2px solid #FFF;
+  background-color: inherit;
+  transition: background-color 200ms, color 200ms, transform 200ms
+}
+.secondary:hover {
+  background-color: white;
+  color:var(--clr-black);
+  transform: scale(1.05);
+}
