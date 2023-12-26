@@ -14,8 +14,9 @@ Hero
   padding-left:32px;
 }
 .logo-tsp {
+  margin-top:8px;
   height:10lvh;
-  width:auto;
+  /* width:auto; */
 }
 .logo, .subtitle {
   width: 60vw;
@@ -25,14 +26,12 @@ Hero
   margin-top:10px;
 }
 .btn-side-by-side {
-  max-width: 55vw;
-  display: flex;
-  gap:16px;
+  max-width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
   margin-bottom:5lvh;
 
-  > button {
-    width: 50%;
-  }
 }
 /* 
 Research
@@ -64,13 +63,14 @@ Situations
 
   h1 {
     color:var(--clr-lightblue);
-    margin-bottom:16px;
+    margin-bottom:var(--heading-margin);
   }
   ul {
     margin-left:48px;
   }
   li {
     color:white;
+    margin-bottom:16px;
   }
   img {
     object-fit: cover;
@@ -93,8 +93,237 @@ Situations
   width: 100%;
 }
 .divider-top {
-  bottom:-5px;
+  bottom:-4px;
 }
 .divider-bottom {
   top: -1px;
+}
+/* 
+Key Features
+*/
+.black {
+  color:var(--clr-black);
+}
+.red {
+  color:var(--clr-red);
+}
+
+.key-features {
+  padding:7%;
+  min-height: 115%;
+
+  h1 {
+    margin-bottom:var(--heading-margin);
+    text-align: center;
+  }
+
+  .card-area {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:48px;
+    
+    .card {
+      display: flex;
+      flex-direction: column;
+      max-width: 350px;
+    
+    }
+
+     img {
+      height: 200px;
+      margin: 0 auto;
+    }
+    h2, p {
+      text-align: center;
+      margin-top:24px;
+    }
+  }
+}
+/* 
+Testimonials
+*/
+
+.testimonials {
+  background-color: var(--clr-offwhite);
+  padding:5%;
+  h1 {
+    margin-bottom:var(--heading-margin);
+    text-align:center;
+  }
+
+  .testimonials-area {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img, a {
+      max-width: 90%;
+    }
+    a {
+      display: flex;
+      justify-content: center;
+    }
+    
+  }
+  .main-testimonial {
+    width:200px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom:24px;
+  }
+  
+}
+/* 
+FAQ
+*/
+.faq {
+  padding:8%;
+
+  .text {
+    display: none; /* Initially hide the text */
+  }
+
+  .show-text.show-text.show-text{
+    display: block;
+  }
+  .open-corners {
+    border-radius: 16px 16px 0 0 !important;
+  }
+  .show {
+    display: block !important;
+  }
+  .open-btn, .close-btn {
+    display: none;
+  }
+  
+  h1 {
+    margin-bottom:var(--heading-margin);
+  }
+  
+  .faq-card {
+    margin-bottom: 24px;
+
+    .title {
+      display: flex;
+      gap:16px;
+      padding:16px;
+      background-color: var(--clr-bluewhite);
+      border-radius:16px;
+      cursor: pointer;
+
+      h2 {
+        user-select: none;
+      }
+
+      button {
+        background: none;
+        border:none;
+        display: flex;
+        place-items: center;
+        cursor:pointer;
+      }
+    }
+    .text {
+      padding:32px;
+      background-color: var(--clr-offwhite);
+      border-radius: 0 0 16px 16px;
+      display: none;
+    }
+  }
+}
+/* 
+Form
+*/
+
+.contact-form {
+  padding:5%;
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  h1 {
+    margin-bottom:var(--heading-margin);
+  }
+  form {
+    display: flex;
+    gap:24px;
+    flex-direction: column;
+  }
+  input, textarea {
+    padding:16px 20px;
+    border-radius:8px;
+    background-color: var(--clr-offwhite);
+    border:none;
+    font-family: var(--font);
+    width:100%;
+    font-weight: normal;
+    font-size:var(--p);
+   }
+   textarea {
+    font-weight: normal;
+    font-size: var(--p);
+   }
+   input::placeholder, textarea::placeholder {
+    font-family: var(--font);
+    font-display: normal;
+    font-weight: normal;
+    font-size:var(--p);
+   }
+   input:focus, textarea:focus {
+    outline: 2px solid var(--clr-red);
+   }
+   button {
+    background-color:var(--clr-red);
+   }
+   img {
+    max-width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    height: 100%;
+   }
+   #message {
+    height:200px;
+   }
+}
+
+
+@media screen and (width < 450px) {
+  :root {
+    --heading-margin: 24px;
+    --h1: 30px;
+    --h2: 24px;
+    --h3: 20px;
+    --p: 16px;
+  }
+  .form-grid.form-grid {
+    grid-template-columns: 1fr;
+  }
+  .situations-grid {
+    grid-template-columns: 1fr;
+
+    img {
+      width:100%;
+    }
+  }
+  .btn-side-by-side, .logo, .subtitle {
+    max-width: 100%;
+  }
+  .logo, .subtitle {
+    width:100%;
+  }
+  .hero {
+    padding:16px;
+  }
+  .logo-tsp {
+    height:50px;
+  }
+  .btn-side-by-side {
+    grid-template-columns: 1fr;
+  }
 }
