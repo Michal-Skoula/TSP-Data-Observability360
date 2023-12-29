@@ -1,0 +1,32 @@
+.hero {
+  background-color: var(--elderberry-black);
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100lvh;
+  background: url(/assets/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: top; 
+  padding-left:32px;
+}
+.logo-tsp {
+  margin-top:8px;
+  height:10lvh;
+  /* width:auto; */
+}
+.logo, .subtitle {
+  width: 60vw;
+  color:white;
+}
+.subtitle {
+  margin-top:10px;
+}
+.btn-side-by-side {
+  max-width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom:5lvh;
+
+}

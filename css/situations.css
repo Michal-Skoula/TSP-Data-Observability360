@@ -1,0 +1,41 @@
+.situations {
+  background-color:var(--clr-black);
+  padding:5%;
+
+  h1 {
+    color:var(--clr-lightblue);
+    margin-bottom:var(--heading-margin);
+  }
+  ul {
+    margin-left:48px;
+  }
+  li {
+    color:white;
+    margin-bottom:16px;
+  }
+  img {
+    object-fit: cover;
+    min-width: 0;
+    width: calc(100% - 32px);
+    border-radius: 16px;
+  }
+}
+.situations-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap:32px;
+  max-width: 100%;
+}
+.divider-top, 
+.divider-bottom,
+.divider-top > path,
+.divider-bottom > path {
+  position: relative;
+  width: 100%;
+}
+.divider-top {
+  bottom:-4px;
+}
+.divider-bottom {
+  top: -1px;
+}

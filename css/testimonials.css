@@ -1,0 +1,32 @@
+.testimonials {
+  background-color: var(--clr-offwhite);
+  padding:5%;
+  h1 {
+    margin-bottom:var(--heading-margin);
+    text-align:center;
+  }
+
+  .testimonials-area {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img, a {
+      max-width: 90%;
+    }
+    a {
+      display: flex;
+      justify-content: center;
+    }
+    
+  }
+  .main-testimonial {
+    width:200px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom:24px;
+  }
+}
