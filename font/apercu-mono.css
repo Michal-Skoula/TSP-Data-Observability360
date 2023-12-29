@@ -13,7 +13,7 @@
     */
 
     @font-face {
-        font-family: 'Apercu Mono Pro';
+        font-family: 'apercu-mono-regular-pro';
         src: url('apercu-mono-regular-pro.woff2') format('woff2'),
             url('apercu-mono-regular-pro.woff') format('woff'),
             url('apercu-mono-regular-pro.ttf') format('truetype');

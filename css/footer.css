@@ -46,7 +46,7 @@
     color: #7D7D7D;
     display: block;
     text-align: center;
-    font-family: Apercu mono pro;
+    font-family: var(--font-mono);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

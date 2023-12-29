@@ -13,7 +13,7 @@
     */
 
     @font-face {
-        font-family: 'Apercu Pro';
+        font-family: 'apercu-medium-pro';
         src: url('apercu-medium-pro.woff2') format('woff2'),
             url('apercu-medium-pro.woff') format('woff'),
             url('apercu-medium-pro.ttf') format('truetype');

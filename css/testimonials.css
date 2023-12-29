@@ -30,3 +30,8 @@
     margin-bottom:24px;
   }
 }
+@media screen and (width < 500px) {
+  .testimonials-area.testimonials-area > img, .testimonials-area.testimonials-area > a {
+    height:45px;
+  }
+}
