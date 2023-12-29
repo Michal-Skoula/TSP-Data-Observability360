@@ -1,5 +1,5 @@
 .contact-form {
-  padding:calc(var(--default-padding) * 2) var(--default-padding);
+  padding:0 var(--default-padding) calc(var(--default-padding) * 2) var(--default-padding);
 
   .form-grid {
     display: grid;

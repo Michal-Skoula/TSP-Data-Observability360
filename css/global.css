@@ -5,6 +5,7 @@
 @import url(research.css);
 @import url(situations.css);
 @import url(testimonials.css);
+@import url(footer.css);
 
 :root {
   --clr-red: rgba(229, 42, 24, 1);
@@ -13,6 +14,7 @@
   --clr-lightblue: rgba(0, 176, 171, 1);
   --clr-bluewhite: rgba(209, 223, 223, 1);
   --clr-offwhite: rgba(236, 235, 236, 1);
+  --clr-greenblack: #20313A;
   --input-placeholder: rgba(30, 30, 30, 0.6);
   --font: "Apercu-pro", sans-serif;
 
@@ -30,6 +32,9 @@
   box-sizing: border-box;
   font-family: var(--font);
   color:var(--clr-black);
+}
+html {
+  scroll-behavior: smooth;
 }
 h1 {
   font-family: var(--font);
@@ -100,10 +105,10 @@ li {
   transform: scale(1.05);
 }
 .divider-top {
-  bottom:-4px;
+  bottom:-5px;
 }
 .divider-bottom {
-  top: -2px;
+  top: -3px;
 }
 @media screen and (width < 450px) {
   :root {
