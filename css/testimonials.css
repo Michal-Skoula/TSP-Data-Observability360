@@ -27,10 +27,10 @@
     width:200px;
     margin: 0 auto;
     display: flex;
-    margin-bottom:24px;
+    margin-bottom:64px;
   }
 }
-@media screen and (width < 500px) {
+@media screen and (width < 600px) {
   .testimonials-area.testimonials-area > img, .testimonials-area.testimonials-area > a {
     height:45px;
   }

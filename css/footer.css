@@ -59,7 +59,7 @@
     }
   }
 }
-@media screen and (width < 500px) {
+@media screen and (width < 600px) {
   .footer_right {
     flex-direction: column;
   }

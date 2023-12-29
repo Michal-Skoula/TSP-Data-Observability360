@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-@media screen and (width < 500px) {
+@media screen and (width < 600px) {
   .situations-grid {
     grid-template-columns: 1fr;
   }
