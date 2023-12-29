@@ -11,3 +11,4 @@
 - [x] Optimize for larger screen sizes - add max width containers
 - [x] Add hero buttons' functionality
 - [ ] Unify branding around headings and O360 logo - superscript? *waiting for designer*
+- [ ] Try how the sections look without the sharp dividers and remove them if its better
