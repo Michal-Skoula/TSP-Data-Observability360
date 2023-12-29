@@ -1,6 +1,6 @@
 .situations {
   background-color:var(--clr-black);
-  padding:5%;
+  padding:calc(var(--default-padding) * 2) var(--default-padding);
 
   h1 {
     color:var(--clr-lightblue);
@@ -18,6 +18,7 @@
     min-width: 0;
     width: calc(100% - 32px);
     border-radius: 16px;
+    margin: 0 auto;
   }
 }
 .situations-grid {
@@ -33,9 +34,9 @@
   position: relative;
   width: 100%;
 }
-.divider-top {
-  bottom:-4px;
-}
-.divider-bottom {
-  top: -1px;
+
+@media screen and (width < 500px) {
+  .situations-grid {
+    grid-template-columns: 1fr;
+  }
 }

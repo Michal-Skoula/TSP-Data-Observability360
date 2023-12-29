@@ -1,5 +1,5 @@
 .faq {
-  padding:8%;
+  padding:calc(var(--default-padding) * 2) var(--default-padding);
 
   .text {
     display: none; /* Initially hide the text */
@@ -32,9 +32,12 @@
       background-color: var(--clr-bluewhite);
       border-radius:16px;
       cursor: pointer;
+      overflow-wrap: break-word;
+      word-break: break-word;
 
       h2 {
         user-select: none;
+  
       }
 
       button {

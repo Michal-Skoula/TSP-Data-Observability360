@@ -6,7 +6,7 @@
 }
 
 .key-features {
-  padding:7%;
+  padding:calc(var(--default-padding) * 2) var(--default-padding);
   min-height: 115%;
 
   h1 {

@@ -1,5 +1,5 @@
 .contact-form {
-  padding:5%;
+  padding:calc(var(--default-padding) * 2) var(--default-padding);
 
   .form-grid {
     display: grid;
@@ -49,4 +49,9 @@
    #message {
     height:200px;
    }
+}
+@media screen and (width < 500px) {
+  .form-grid.form-grid {
+    grid-template-columns: 1fr;
+  }
 }

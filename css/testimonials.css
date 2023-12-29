@@ -1,6 +1,6 @@
 .testimonials {
   background-color: var(--clr-offwhite);
-  padding:5%;
+  padding:calc(var(--default-padding) * 4) var(--default-padding);
   h1 {
     margin-bottom:var(--heading-margin);
     text-align:center;

@@ -4,15 +4,15 @@
   align-items: center;
   text-align: center;
   gap:16px;
-  padding:10%;
+  padding:calc(var(--default-padding) * 4) calc(var(--default-padding) * 2);
   h1 {
-    color:var(--clr-red)
+    color:var(--clr-red);
   }
   .o360 {
     max-width: 30vw;
   }
   .source {
     text-decoration: underline;
-    color:var(--clr-black)
+    color:var(--clr-black);
   }
 }
