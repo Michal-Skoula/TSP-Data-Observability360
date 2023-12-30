@@ -125,7 +125,7 @@ li {
   top: -3px;
 }
 .text-max-width-container {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 @media screen and (max-width: 500px) {

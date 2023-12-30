@@ -1,8 +1,8 @@
 # TODOs
 
 - [ ] Add Implementation section (01, 02, 03 section)
-- [ ] Cleanup unnecessary assets
-- [ ] Optimize SEO
+- [ ] Cleanup unnecessary assets *not necessary*
+
 
 - [ ] Add submit form functionality *waiting*
 - [ ] Replace placeholder texts *waiting*
@@ -15,3 +15,4 @@
 - [x] Fix layout issues on webkit and ios
 - [its_fine] Fix logos being weird svgs instead of high-res pngs
 - [x] Convert all images to webp
+- [x] Optimize SEO
