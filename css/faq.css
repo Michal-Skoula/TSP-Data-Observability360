@@ -1,31 +1,30 @@
 .faq {
   padding:calc(var(--default-padding) * 2) var(--default-padding);
 
-  .text {
+  & .text {
     display: none; /* Initially hide the text */
   }
 
-  .show-text.show-text.show-text{
+  & .show-text.show-text.show-text{
     display: block;
   }
-  .open-corners {
+  & .open-corners {
     border-radius: 16px 16px 0 0 !important;
   }
-  .show {
+  & .show {
     display: block !important;
   }
-  .open-btn, .close-btn {
+  & .open-btn, .close-btn {
     display: none;
   }
-  
-  h1 {
+  & h1 {
     margin-bottom:var(--heading-margin);
   }
   
-  .faq-card {
+  & .faq-card {
     margin-bottom: 24px;
 
-    .title {
+    & .title {
       display: flex;
       gap:16px;
       padding:16px;
@@ -35,12 +34,12 @@
       overflow-wrap: break-word;
       word-break: break-word;
 
-      h2 {
+      & h2 {
         user-select: none;
   
       }
 
-      button {
+      & button {
         background: none;
         border:none;
         display: flex;
@@ -48,7 +47,7 @@
         cursor:pointer;
       }
     }
-    .text {
+    & .text {
       padding:32px;
       background-color: var(--clr-offwhite);
       border-radius: 0 0 16px 16px;
