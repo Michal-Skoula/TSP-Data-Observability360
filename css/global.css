@@ -36,6 +36,7 @@
   box-sizing: border-box;
   font-family: var(--font);
   color:var(--clr-black);
+  font-display: swap;
 }
 html {
   scroll-behavior: smooth;

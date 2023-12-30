@@ -21,6 +21,7 @@
   min-width: 120px;
   width: 20vw;
   max-width: 300px;
+  aspect-ratio: inherit;
 }
 
 .logo,
@@ -28,6 +29,10 @@
   width: 60vw;
   color: white;
   max-width: 1100px;
+}
+
+.logo {
+  aspect-ratio: inherit;
 }
 
 .subtitle {
