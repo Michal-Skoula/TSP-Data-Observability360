@@ -1,58 +1,71 @@
 .contact-form {
-  padding:0 var(--default-padding) calc(var(--default-padding) * 2) var(--default-padding);
-
-  .form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-  }
-  h1 {
-    margin-bottom:var(--heading-margin);
-  }
-  form {
-    display: flex;
-    gap:24px;
-    flex-direction: column;
-  }
-  input, textarea {
-    padding:16px 20px;
-    border-radius:8px;
-    background-color: var(--clr-offwhite);
-    border:none;
-    font-family: var(--font);
-    width:100%;
-    font-weight: normal;
-    font-size:var(--p);
-   }
-   textarea {
-    font-weight: normal;
-    font-size: var(--p);
-   }
-   input::placeholder, textarea::placeholder {
-    font-family: var(--font);
-    font-display: normal;
-    font-weight: normal;
-    font-size:var(--p);
-   }
-   input:focus, textarea:focus {
-    outline: 2px solid var(--clr-red);
-   }
-   button {
-    background-color:var(--clr-red);
-    height: inherit;
-   }
-   img {
-    max-width: 100%;
-    border-radius: 16px;
-    object-fit: cover;
-    height: 100%;
-   }
-   #message {
-    height:200px;
-   }
+  padding: 0 var(--default-padding) calc(var(--default-padding) * 2) var(--default-padding);
 }
+
+.contact-form .form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.contact-form h1 {
+  margin-bottom: var(--heading-margin);
+}
+
+.contact-form form {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 16px 20px;
+  border-radius: 8px;
+  background-color: var(--clr-offwhite);
+  border: none;
+  font-family: var(--font);
+  width: 100%;
+  font-weight: normal;
+  font-size: var(--p);
+}
+
+.contact-form textarea {
+  font-weight: normal;
+  font-size: var(--p);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-family: var(--font);
+  font-display: normal;
+  font-weight: normal;
+  font-size: var(--p);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--clr-red);
+}
+
+.contact-form button {
+  background-color: var(--clr-red);
+  height: inherit;
+}
+
+.contact-form img {
+  max-width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.contact-form #message {
+  height: 200px;
+}
+
 @media screen and (width < 600px) {
-  .form-grid.form-grid {
+  .contact-form .form-grid {
     grid-template-columns: 1fr;
   }
 }

@@ -1,21 +1,21 @@
-.research {
-
-  h1 {
-    color:var(--clr-red);
-  }
-  .o360 {
-    max-width: 30vw;
-  }
-  .source {
-    text-decoration: underline;
-    color:var(--clr-black);
-  }
+.research h1 {
+  color: var(--clr-red);
 }
+
+.research .o360 {
+  max-width: 30vw;
+}
+
+.research .source {
+  text-decoration: underline;
+  color: var(--clr-black);
+}
+
 .research-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 5svh;
-  padding:calc(var(--default-padding) * 4) calc(var(--default-padding) * 2);
+  padding: calc(var(--default-padding) * 4) calc(var(--default-padding) * 2);
 }

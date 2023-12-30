@@ -1,39 +1,41 @@
 .black {
-  color:var(--clr-black);
+  color: var(--clr-black);
 }
+
 .red {
-  color:var(--clr-red);
+  color: var(--clr-red);
 }
 
 .key-features {
-  padding:calc(var(--default-padding) * 2) var(--default-padding);
+  padding: calc(var(--default-padding) * 2) var(--default-padding);
   min-height: 115%;
+}
 
-  h1 {
-    margin-bottom:var(--heading-margin);
-    text-align: center;
-  }
+.key-features h1 {
+  margin-bottom: var(--heading-margin);
+  text-align: center;
+}
 
-  .card-area {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    gap:48px;
-    
-    .card {
-      display: flex;
-      flex-direction: column;
-      max-width: 350px;
-    
-    }
+.key-features .card-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+}
 
-     img {
-      height: 200px;
-      margin: 0 auto;
-    }
-    h2, p {
-      text-align: center;
-      margin-top:24px;
-    }
-  }
+.key-features .card {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.key-features .card img {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.key-features .card h2,
+.key-features .card p {
+  text-align: center;
+  margin-top: 24px;
 }

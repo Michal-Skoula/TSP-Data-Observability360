@@ -1,33 +1,38 @@
 .situations {
-  background-color:var(--clr-greenblack);
-  padding:calc(var(--default-padding) * 2) var(--default-padding);
-
-  h1 {
-    color:var(--clr-lightblue);
-    margin-bottom:var(--heading-margin);
-  }
-  ul {
-    margin-left:48px;
-  }
-  li {
-    color:white;
-    margin-bottom:16px;
-  }
-  img {
-    object-fit: cover;
-    min-width: 0;
-    width: calc(100% - 32px);
-    border-radius: 16px;
-    margin: 0 auto;
-  }
+  background-color: var(--clr-greenblack);
+  padding: calc(var(--default-padding) * 2) var(--default-padding);
 }
+
+.situations h1 {
+  color: var(--clr-lightblue);
+  margin-bottom: var(--heading-margin);
+}
+
+.situations ul {
+  margin-left: 48px;
+}
+
+.situations li {
+  color: white;
+  margin-bottom: 16px;
+}
+
+.situations img {
+  object-fit: cover;
+  min-width: 0;
+  width: calc(100% - 32px);
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
 .situations-grid {
   display: grid;
   grid-template-columns: 60% 40%;
-  gap:32px;
+  gap: 32px;
   max-width: 100%;
 }
-.divider-top, 
+
+.divider-top,
 .divider-bottom,
 .divider-top > path,
 .divider-bottom > path {
@@ -35,7 +40,7 @@
   width: 100%;
 }
 
-@media screen and (width < 600px) {
+@media screen and (max-width: 600px) {
   .situations-grid {
     grid-template-columns: 1fr;
   }
