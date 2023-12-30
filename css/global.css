@@ -47,6 +47,8 @@ h1 {
   font-weight: 600;
   line-height: normal;
   letter-spacing: 2.5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 h2 {
   font-family: var(--font);
@@ -120,7 +122,7 @@ li {
   max-width: 1100px;
   margin: 0 auto;
 }
-@media screen and (width < 500px) {
+@media screen and (max-width: 500px) {
   :root {
     --heading-margin: 24px;
     --h1: 28px;
@@ -129,7 +131,7 @@ li {
     --p: 16px;
   }
 }
-@media screen and (width > 1100px) {
+@media screen and (min-width: 1100px) {
   :root {
     --default-padding: 50px;
   }

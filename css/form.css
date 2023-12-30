@@ -64,7 +64,7 @@
   height: 200px;
 }
 
-@media screen and (width < 600px) {
+@media screen and (max-width: 600px) {
   .contact-form .form-grid {
     grid-template-columns: 1fr;
   }
