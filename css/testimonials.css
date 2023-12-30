@@ -3,7 +3,7 @@
   padding: calc(var(--default-padding) * 4) var(--default-padding);
 }
 
-.testimonials h1 {
+.testimonials h2 {
   margin-bottom: var(--heading-margin);
   text-align: center;
 }

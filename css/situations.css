@@ -3,7 +3,7 @@
   padding: calc(var(--default-padding) * 2) var(--default-padding);
 }
 
-.situations h1 {
+.situations h2 {
   color: var(--clr-lightblue);
   margin-bottom: var(--heading-margin);
 }
