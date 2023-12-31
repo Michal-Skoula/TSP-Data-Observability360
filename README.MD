@@ -1,5 +1,5 @@
 # Observability360 Landing page
-![[https://github.com/Michal-Skoula/TSP-Data-Observability360/blob/master/assets/readme/readme_img.png]]
+![Hero Design](https://github.com/Michal-Skoula/TSP-Data-Observability360/blob/master/assets/readme/readme_img.png)
 
 **You can see the website here:** [Live site](https://tspdata.cz/observability), [My link](https://obs360.michalskoula.com)
 
