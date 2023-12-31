@@ -1,7 +1,7 @@
 # Observability360 Landing page
-![[/assets/readme/readme_img.png]]
+![/assets/readme/readme_img.png]
 
-**You can see the website here:** [TSPData.cz](https://tspdata.cz/observability) [My link](https://obs360.michalskoula.com)
+**You can see the website here:** [Live site](https://tspdata.cz/observability), [My link](https://obs360.michalskoula.com)
 
 ## Summary
 This website was a comission from TSP Data, a.s. to create an attractive landing page for their state-of-the-art Observability solution for businesses who want to become more data oriented, want to prevent issues before they happen and stay on track of things.
