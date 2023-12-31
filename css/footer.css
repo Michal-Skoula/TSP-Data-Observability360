@@ -73,7 +73,13 @@
   font-size: inherit;
   font-weight: inherit;
   color: inherit;
+  font-family: var(--font-mono);
+}
+.footer small a:hover {
   text-decoration: underline;
+}
+.footer small #attribution {
+  color:var(--clr-offwhite);
 }
 
 @media screen and (max-width: 600px) {

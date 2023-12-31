@@ -2,6 +2,7 @@
 
 - [ ] Add Implementation section (01, 02, 03 section)
 - [ ] Cleanup unnecessary assets *not necessary*
+- [ ] Create a readme for a nicer github
 
 
 - [ ] Add submit form functionality *waiting*
