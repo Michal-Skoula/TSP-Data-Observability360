@@ -17,7 +17,3 @@ This was my first website where I had comprehensive brand guidelines to work wit
 
 ## Summary
 This was an awesome project, and I'm super happy with the final result! This is my first commercial project that I've completed, and I think it turned out nicely, and it was also well received by the comissioner. However, I still had issues implementing some CSS due to insufficient knowledge, and I'll need to vastly improve my knowledge on JavaScript and PHP so I can also create backends for these sites, and add more animations and make cooler designs in the future. And learn more about SEO aswell :D
-
-
-
-
