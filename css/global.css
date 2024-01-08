@@ -23,7 +23,7 @@
   --font-mono: 'apercu-mono-regular-pro', sans-serif;
 
   --heading-margin: 48px;
-  --h1: 50px;
+  --h1: 35px;
   --h2: 32px;
   --h3: 26px;
   --p: 20px;
@@ -44,7 +44,7 @@ html {
 h1 {
   font-weight: normal;
   font-family: var(--font-mono);
-  font-size:26px;
+  font-size:var(--h1);
 }
 h2 {
   font-family: var(--font);
@@ -128,10 +128,13 @@ li {
   max-width: 1300px;
   margin: 0 auto;
 }
+.red {
+  color: var(--clr-red);
+}
 @media screen and (max-width: 500px) {
   :root {
     --heading-margin: 24px;
-    --h1: 28px;
+    --h1: 22px;
     --h2: 22px;
     --h3: 18px;
     --p: 16px;

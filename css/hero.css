@@ -26,7 +26,7 @@
 
 .logo,
 .subtitle {
-  width: 60vw;
+  width: 70vw;
   color: white;
   max-width: 1100px;
 }
@@ -41,7 +41,7 @@
 }
 
 .btn-side-by-side {
-  max-width: 60%;
+  max-width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
@@ -62,6 +62,6 @@
   }
 
   .subtitle {
-    width: 90%;
+    width: 95%;
   }
 }

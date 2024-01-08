@@ -23,6 +23,8 @@
   width: calc(100% - 32px);
   border-radius: 16px;
   margin: 0 auto;
+  height: 100%;
+  aspect-ratio: 16/9;
 }
 
 .situations-grid {
@@ -40,7 +42,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .situations-grid {
     grid-template-columns: 1fr;
   }
