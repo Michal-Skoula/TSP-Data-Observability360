@@ -38,6 +38,7 @@
 .subtitle {
   margin-top: 10px;
   letter-spacing: 1px;
+  font-size: var(--h3);
 }
 
 .btn-side-by-side {
