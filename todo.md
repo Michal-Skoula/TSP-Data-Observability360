@@ -1,8 +1,8 @@
 # TODOs
 
-- [ ] Add Implementation section (01, 02, 03 section)
+- [?] Add Implementation section (01, 02, 03 section)
 - [ ] Cleanup unnecessary assets *not necessary*
-- [ ] Adjust footer logo to be this one from figma: `TSP Data | Observability` - see whatsapp
+
 
 
 # WAITING
@@ -20,3 +20,4 @@
 - [x] Optimize SEO
 - [x] Fix img in situations section 
 - [x] Unify branding around headings and O360 logo - red color everywhere besides hero
+- [x] Adjust footer logo to be this one from figma: `TSP Data | Observability` - see whatsapp
